@@ -1,0 +1,283 @@
+
+
+
+hr {		
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: white;
+    text-align: center;
+    }
+hr:after {
+    content: "¤";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    }
+#bg{
+    background-color:#383838;
+    background-repeat: no-repeat;
+    position:fixed;
+    width:100vw;
+    height:100vh;
+    top:0px;
+    left:0px;
+    z-index:-1000;
+    }
+
+/* NAV BAR */
+#area1 {
+    position: absolute;
+    width: 150px;
+    height: 80px;
+    top: 10px;
+    left: -20px;
+    color: #fff;
+    background-color: #99b898;
+    vertical-align: middle;
+    box-shadow: 2px 2px 5px #2a363b;
+}
+
+#area2 {
+    position: absolute;
+    width: 150px;
+    height: 80px;
+    top: 100px;
+    left: -20px;
+    color: #fff;
+    background-color: #fecea8;
+    box-shadow: 2px 2px 5px #2a363b;
+}
+
+#area3 {
+    position: absolute;
+    width: 150px;
+    height: 80px;
+    top: 190px;
+    left: -20px;
+    color: #fff;
+    background-color: #9DE0AD;
+    box-shadow: 2px 2px 5px #2a363b;
+}
+
+#area4 {
+    position: absolute;
+    width: 150px;
+    height: 80px;
+    top: 280px;
+    left: -20px;
+    color: #fff;	
+    background-image: 
+        linear-gradient(
+        rgba(0, 0, 0, 0.15),
+        rgba(0, 0, 0, 0.15)
+        ), url("../images/rowdy.jpg");
+    background-size: 150px 80px;				
+    box-shadow: 2px 2px 5px #2a363b;
+}			
+
+#area5 {
+    position: absolute;
+    width: 150px;
+    height: 80px;
+    top: 370px;
+    left: -20px;
+    color: #fff;	
+    background-image: 
+        linear-gradient(
+        rgba(0, 0, 0, 0.15),
+        rgba(0, 0, 0, 0.15)
+        ), url("../images/elegant.jpg");
+    background-size: 150px 80px;				
+    box-shadow: 2px 2px 5px #2a363b;
+}		
+
+span {
+    padding-left: 4px;				
+    color: white;	
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+    0px 8px 13px rgba(0,0,0,0.1),
+    0px 18px 23px rgba(0,0,0,0.1);
+}
+
+#rightPane {
+    width: 80px;
+    height: 100%;
+    position: relative;
+    float: right;
+    background-color: #6495ed;
+    -webkit-box-shadow: 0px 3px 10px 3px rgba(0,0,0,0.4); 
+    box-shadow: 0px 3px 10px 3px rgba(0,0,0,0.4);
+    
+}	
+/* END NAV BAR */
+
+
+/* IMG ZOOM */
+.zoom:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+/* END IMG ZOOM */
+
+/* PRODUCT CONTAINER */
+.productContainer{
+    width: 90%;
+    margin-top: 10%;
+    margin-left: 2%;
+}
+
+#productContainer1 {
+    display: block;    
+}
+
+#productContainer2 {
+    display: none;
+}
+
+#productContainer3 {
+    display: none;
+}
+
+#productContainer4 {
+    display: none;
+}
+/* END PRODUCT CONTAINER */
+
+#scrollButton {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    position: absolute;
+    font-size: 1.5em;
+    /* text-transform: lowercase; */
+    left: 5%;
+    width: 5%;
+    top: 90%;
+    border-radius: 10px;
+    color: white;
+    text-shadow: -1px -1px 1px rgba(0,0,0,0.8);
+    border: 5px solid transparent;
+    border-bottom-color: rgba(0,0,0,0.35);
+    background: #6495ed;
+    cursor: pointer;
+    outline: 0 !important;
+    animation: pulse 1s infinite alternate;
+    transition: background 0.4s, border 0.2s, margin 0.2s;
+}
+#scrollButton:hover {
+    background: pink;
+    /* hsla(220, 100%, 60%, 1); */
+    margin-top: -1px;
+    animation: none;
+}
+#scrollButton:active {
+    border-bottom-width: 0;
+    margin-top: 5px;
+}
+@keyframes pulse {
+    0% {
+        margin-top: 0px;
+    }
+    100% {
+        margin-top: 6px; 
+    } 
+}
+
+.contentContainer {
+    margin: 15px;
+    height: 75%;
+    width: 83%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    background-color:slategray;
+}
+
+#bodyImgContainer1 {
+    float: left;
+    width: 47%;
+    height: 75%;
+    border: solid red;
+}
+#bodyTextContainer1 {
+    text-align: left;
+    float: right;
+    width: 47%;
+    height: 45%;
+}
+
+#bodyImgContainer2 {
+    float: right;
+}
+#bodyTextContainer2 {
+    text-align: right;
+    float: left;
+    width: 45%;
+    height: 75%;
+
+}
+
+#welcomeImage {
+    width: 49%;
+    height: 45%;
+}
+
+p, h1, h2, h3, h4 {
+    font-family: "Indie Flower";
+    color: black;
+}
+
+#cardBg {
+    background-color: lavenderblush;
+    
+    }
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    background-color: gray;
+    
+    float: left;
+    margin: 5px;
+    padding: 10px;
+    
+    }
+
+.price {
+    color: grey;
+    font-size: 22px;
+    }
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    }
+
+.card button:hover {
+    opacity: 0.7;
+    }
+
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .main {
+        width: 80%;
+        padding: 0;
+    }
+    .right {
+        width: 100%;
+    }
+    }
+    @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+        width: 100%;
+    }
+    }

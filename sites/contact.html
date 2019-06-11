@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Eek's Attic About Page!</title>
+<!-- hexidecimal html entity - https://www.iemoji.com/view/emoji/938/travel-places/desert-island - https://www.iemoji.com/ -->
+        <meta name="description" content="Eek's Attic's Main Page">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../css/aboutDesign.css">
+	
+	<link href="https://fonts.googleapis.com/css?family=Abel|Fjalla+One|Pacifico|Lato|Anton|Dokdo|Indie+Flower|Oswald" rel="stylesheet">	
+	<!-- fonts courtesy of google fonts -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<script>
+    // Nav Bar
+    function openNav() {
+        document.getElementById("rightPane").style.width = "150px";
+    }
+
+    function closeNav() {
+        document.getElementById("rightPane").style.width = "80px";
+    }
+
+    </script>
+
+    </head>
+
+<!-- Notes:
+
+I have lost the ability to scroll this site. It doesn't have text data that cannot be seen, but the image on the bottom should cause scrolling.
+
+-->
+
+
+    <body onload="">
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+            <div id="bg" >
+
+                <div id="rightPane" onmouseenter="openNav()" onmouseleave="closeNav()">
+                    <div id="area1" style="cursor:pointer;" onclick="location.href = '../main.html';"><span> Home</span></div>
+                    <div id="area2" style="cursor:pointer;" onclick="location.href = '../sites/about.html';"><span> About</span></div>
+                    <div id="area3" style="cursor:pointer;" onclick="location.href = '../sites/contact.html';"><span> Contact</span></div>
+                    <div id="area4" style="cursor:pointer;" onclick="location.href = '../sites/rowdyCollection.html';"><span>Our Rowdy &nbsp;Collection</span></div>
+                    <div id="area5" style="cursor:pointer;" onclick="location.href = '../sites/elegantCollection.html';"><span>Our &nbsp;Elegant Collection</span></div>
+                </div>
+                    
+                        <div class="contentContainer">
+                            <div id="bodyImgContainer1">
+                                    <img src="../images/contactPage/storeFront.jpg" alt="Eek's Boutique" >
+                            </div>
+                            <div id="bodyTextContainer1">
+                                <h1>Eek's Attic Contact Page</h1>
+                                <p>You can reach us at: 555-555-0101</p>
+                                <p>Our address is: 120 Fake Address Ln, Oak Ridge, TN</p>
+                                <p><a href="https://www.instagram.com/eeksattic/">Check out our Instagram!</a></p>
+                            </div>
+                        </div>
+
+
+
+
+
+            </div> <!-- end background -->
+            
+    
+
+        <script src="" async defer></script>
+    </body>
+</html>

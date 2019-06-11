@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Welcome to Eek's Attic!</title>
+<!-- hexidecimal html entity - https://www.iemoji.com/view/emoji/938/travel-places/desert-island - https://www.iemoji.com/ -->
+        <meta name="description" content="Eek's Attic's Landing Page">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../css/design.css">
+        <link rel="stylesheet" href="../css/landingStyle.css">	
+        <link rel="stylesheet" href="../css/fabulousButton.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="../scripts/typerwriter.js"></script>
+        <script src="../scripts/landing.js"></script>
+        <script src="../scripts/productScroller.js"></script>
+	
+	<link href="https://fonts.googleapis.com/css?family=Abel|Fjalla+One|Pacifico|Lato|Anton|Dokdo|Indie+Flower|Oswald" rel="stylesheet">
+	<!-- <link href="https://fonts.googleapis.com/css?family=Anton|Dokdo|Indie+Flower|Oswald" rel="stylesheet"> -->
+	<!-- fonts courtesy of google fonts -->
+
+	
+
+	
+	<script>
+    // Nav Bar
+    function openNav() {
+        document.getElementById("rightPane").style.width = "150px";
+    }
+
+    function closeNav() {
+        document.getElementById("rightPane").style.width = "80px";
+    }//-:
+
+    </script>
+
+    </head>
+    <body onload="">
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+            <div id="bg" >
+
+                <div id="rightPane" onmouseenter="openNav()" onmouseleave="closeNav()">
+                    <div id="area1" style="cursor:pointer;" onclick="location.href = '../main.html';"><span> Home</span></div>
+                    <div id="area2" style="cursor:pointer;" onclick="location.href = '../sites/about.html';"><span> About</span></div>
+                    <div id="area3" style="cursor:pointer;" onclick="location.href = '../sites/contact.html';"><span> Contact</span></div>
+                    <div id="area4" style="cursor:pointer;" onclick="location.href = '../sites/rowdyCollection.html';"><span>Our Rowdy &nbsp;Collection</span></div>
+                    <div id="area5" style="cursor:pointer;" onclick="location.href = '../sites/elegantCollection.html';"><span>Our &nbsp;Elegant Collection</span></div>
+                </div>
+                    
+
+                <button id="button" onmouseover=""></button>
+                <!-- Image A Section - Shirts Ask -->
+                <div class="imgA" >
+                    <img id="funShirt" class="zoom" src="https://cdn.shopify.com/s/files/1/3007/4744/products/lularoeIrma_1024x1024@2x.jpg?v=1548600458" alt="irma">
+                </div>
+                <div class="imgA" >
+                    <img id="elegantShirt" class="zoom" src="https://cdn.shopify.com/s/files/1/3007/4744/products/b1_2e41c6ba-3eac-43df-90f1-5b07e7749cc9_1024x1024@2x.jpg?v=1548603649" alt="elegant">
+                </div>
+
+                <!-- Image B Section - Pants Ask -->
+                <div class="imgB">
+                    <img id="jeans" onclick="redirect()" class="zoom" src="../images/distressedJeans.jpg" alt="jeans">
+                </div>
+                <div class="imgB">
+                    <img id="dressPants" onclick="redirect()" class="zoom" src="../images/dressPants.jpeg" alt="pants">
+                </div>
+
+                <div class="footer" style="top:85%;">click the button at any time to skip</div>
+
+            </div> <!-- end background -->
+        <script src="" async defer></script>
+    </body>
+</html>
